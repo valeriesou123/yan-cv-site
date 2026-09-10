@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yan Sou 個人簡歷網站，聚焦 AI、城市研究與法規科技。"
+    />
+    <title>Yan Sou | Curriculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top">YAN<span>.</span>SOU</a>
+
+        <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="nav mono" aria-label="主選單">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="reveal">
+            <div class="eyebrow mono">Researcher / Designer / Builder</div>
+            <h1>
+              Turning complex
+              <span class="accent">rules</span><br />
+              into clear actions.
+            </h1>
+            <p class="lead">
+              我是一名關注 AI、都市研究與法規科技的研究型建造者，專長於將複雜
+              的資訊系統轉化為可理解、可使用、可決策的工具。
+            </p>
+            <div class="cta-row">
+              <a class="button" href="#experience">查看履歷</a>
+              <a class="button secondary" href="#contact">聯絡我</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="個人形象區塊">
+            <div class="profile-box"></div>
+            <div class="visual-tag mono">CV</div>
+            <div class="visual-label mono">Taiwan / HK / Macau</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">What I <span class="accent">bring</span></h2>
+            <p class="section-copy">
+              我相信好的研究不是只產出報告，而是幫助人們更快理解問題、做出更
+              精準判斷，並把洞察轉變為可實作的產品與系統。
+            </p>
+          </div>
+
+          <div class="summary-grid reveal">
+            <article class="info-card">
+              <div class="index mono">01 / 03</div>
+              <h3>法規 × AI</h3>
+              <p>
+                構思和實作 AI 輔助檢索、知識抽取與規則比對系統，讓法規閱讀更清楚。
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="index mono">02 / 03</div>
+              <h3>城市 × 資料</h3>
+              <p>
+                integrating geospatial data, planning context, and public datasets into
+a clearer decision-making workflow.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="index mono">03 / 03</div>
+              <h3>研究 × 實作</h3>
+              <p>
+                從真實案例出發，將都市與建築研究轉成可檢驗的工具原型與使用者體驗。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Core <span class="accent">skills</span></h2>
+            <p class="section-copy">
+              我強調跨領域能力，將研究邏輯、資料分析與互動設計結合起來，打造
+              實用且可推廣的工作產品。
+            </p>
+          </div>
+
+          <div class="skill-wrap reveal">
+            <span class="skill-pill">AI Product Design</span>
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">HTML / CSS</span>
+            <span class="skill-pill">GIS Mapping</span>
+            <span class="skill-pill">Research Synthesis</span>
+            <span class="skill-pill">UX Writing</span>
+            <span class="skill-pill">Data Visualization</span>
+            <span class="skill-pill">Stakeholder Communication</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-copy">
+              我的工作經驗聚焦在研究、原型設計與對規則理解的實務應用，兼顧理論
+              與實作的精準度。
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-year mono">2024 — Now</div>
+              <div class="timeline-content">
+                <h3>Researcher / Product Designer</h3>
+                <span class="meta">Urban Intelligence Lab</span>
+                <p>
+                  研究 AI 在都市規劃與建築法規上的應用，設計規則查詢、資料分析與
+                  可視化工具，協助專業者理解複雜資訊。
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-year mono">2022 — 2024</div>
+              <div class="timeline-content">
+                <h3>Junior Analyst / Policy Tech</h3>
+                <span class="meta">Regulatory Innovation Team</span>
+                <p>
+                  處理法規文本整理、文件比對與資訊結構化，建立研究流程，提升
+                  專案中規則解讀的效率與準確度。
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-year mono">2019 — 2022</div>
+              <div class="timeline-content">
+                <h3>Urban Planning & Design Assistant</h3>
+                <span class="meta">Architecture & Planning Studio</span>
+                <p>
+                  協助規劃報告、基地研究與設計方案資料呈現，運用地圖與圖表強化
+                  訊息傳達與政策評估能力。
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Selected <span class="accent">projects</span></h2>
+            <p class="section-copy">
+              我致力於將研究驗證與產品設計結合，建構更容易使用、更有決策價值的
+              專業工具。
+            </p>
+          </div>
+
+          <div class="project-grid reveal">
+            <article class="project-card">
+              <span class="tag mono">AI / GIS</span>
+              <h3>台灣基地先覺</h3>
+              <p>
+                一個能快速檢核基地條件與法規限制的分析平台，協助規劃前期理解資訊。
+              </p>
+              <a href="#contact" class="link">View project →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="tag mono">Retrieval</span>
+              <h3>香港法規助手</h3>
+              <p>
+                基於檢索增強生成技術的法規查詢系統，讓複雜條文更快被翻譯成可執行資訊。
+              </p>
+              <a href="#contact" class="link">View project →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="tag mono">Data / UX</span>
+              <h3>澳門 Mini Map</h3>
+              <p>
+                城市資訊互動地圖，將地理資料、都市狀態與研究結果整合為直觀展示面板。
+              </p>
+              <a href="#contact" class="link">View project →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2 class="section-title">Education</h2>
+            <p class="section-copy">
+              我重視跨領域教育，特別是城市研究、數據分析與數位工具應用的結合。
+            </p>
+          </div>
+
+          <div class="edu-grid reveal">
+            <article class="edu-card">
+              <span class="year mono">2020 — 2024</span>
+              <h3>Master of Urban Planning</h3>
+              <p>國立台灣大學城市研究與設計相關研究，專注於數據驅動的都市分析。</p>
+            </article>
+
+            <article class="edu-card">
+              <span class="year mono">2016 — 2020</span>
+              <h3>B.A. in Architecture</h3>
+              <p>建築學士學位，具備空間設計、制度理解與可視化呈現基礎。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <h2>Let's build <span class="accent">better cities</span>.</h2>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <strong class="mono">Email</strong>
+                <a href="mailto:hello@yan-sou.com">hello@yan-sou.com</a>
+              </div>
+              <div class="contact-item">
+                <strong class="mono">LinkedIn</strong>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">linkedin.com/in/yansou</a>
+              </div>
+              <div class="contact-item">
+                <strong class="mono">Location</strong>
+                <span>Taipei, Taiwan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container site-footer">
+      <span class="mono">Yan Sou / Personal CV</span>
+      <span class="mono">© <span id="year"></span> Yan Sou</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
